@@ -4,7 +4,7 @@ use obs_odev
 create table fakulte(
 f_no varchar(3) primary key,
 f_ad varchar(50) not null,
-f_adres text default 'KAMPÜS',
+f_adres text default 'KAMPÃœS',
 f_tel varchar(11),
 dk_sicil varchar(6),
 )
@@ -145,234 +145,234 @@ alter table ders_kayit add constraint chk_ders_kayit_final check (final <= 100 a
 alter table ders_kayit add constraint chk_ders_kayit_uyg check (uygulama<=100 and uygulama >=0)
 alter table ders_kayit add constraint chk_ders_kayit_but check (butunleme<=100 and butunleme >=0)
 
-/*öğrenciler*/
-insert into kimlik values('32882498658','HASAN ALİ','ÖZTOP','07/05/1986','5308321216','halioztop.ybs@gmail.com','ISPARTA','AYŞE','MEHMET',NULL)
-insert into kimlik values('11111111111','ENGİN','BİYAR','07/05/2002','5308603510','enginbiyar.ybs@gmail.com','BALIKESİR','YAREN','ENGİN',NULL)
-insert into kimlik values('11111111112','ENİS','AYDEMİR','07/05/2001','5322148186','enisaydemir.ybs@gmail.com','ANTALYA','SİNEM','DEMİR',NULL)
-insert into kimlik values('11111111113','CELAL','ALTAN','07/05/2003','5457280929','celalaltan.ybs@gmail.com','KASTAMONU','NALAN','ALTAN',NULL)
-insert into kimlik values('11111111114','AZRA YAĞMUR','KAPANCI','07/05/2004','5308603510','azrakapanci.ybs@gmail.com','İZMİR','ZARA','ARAS',NULL)
-insert into kimlik values('11111111115','FATMA GÜL','ATIL','07/04/2004','5550410803','fatil.ybs@gmail.com','NAZİLLİ','DENİZ','AKIN',NULL)
-insert into kimlik values('11111111116','HALİL İBRAHİM','DÜZCÜ','05-17-2004','5444312004','hibrahim.ybs@gmail.com','OSMANİYE','ALİYE','OSMAN',NULL)
-insert into kimlik values('11111111117','ÖMER FARUK','TEMSİLCİ','07/09/2004','5424426517','öfaruk.ybs@gmail.com','ANTALYA','FATMA','POLAT',NULL)
-insert into kimlik values('11111111118','ÇİÇEK','YALÇIN','07/05/2005','5331472404','çyalcin.ybs@gmail.com','İZMİR','AZRA','HAKAN',NULL)
-insert into kimlik values('11111111119','CAN','GADİRLİ','01/01/2004','5538165454','CGADİRLİ.ybs@gmail.com','ANTALYA','HAYDAR','ALİYE',NULL)
-insert into kimlik values('11111111120','SEYMEN','BALCI','01/01/2004','5453109117','sbalci.ybs@gmail.com','ÇANAKKALE','EMİNE','EKREM',NULL)
-insert into kimlik values('11111111121','BAHADIR','TOPALOĞLU','01/01/2004','5435854180','btoplaoglu.ybs@gmail.com','BURSA','BAHAR','BAHRİ',NULL)
-insert into kimlik values('11111111122','AYŞE','BİROL','01/01/2004','5531317198','abirol.ybs@gmail.com','ALANYA','AYŞE','BİROL',NULL)
-insert into kimlik values('11111111123','MERTCAN','GÖÇOĞLU','01/01/2004','5367980476','MERTCAN.ybs@gmail.com','SİNOP','CANAN','MERT',NULL)
-insert into kimlik values('11111111124','MUSTAFA MERİÇ','KARAPINAR','01/01/2004','5351000000','mmeric.ybs@gmail.com','ANTALYA','AYŞE','MUSTAFA',NULL)
-insert into kimlik values('11111111125','BURAK','İNCİ','01/01/2004','1001001000','BİNCİ.ybs@gmail.com','AYDIN','GÜLSÜM','RAMAZAN',NULL)
+/*Ã¶Ã°renciler*/
+insert into kimlik values('32882498658','H','Ã–','07/05/1986','5308321216','hp.ybs@gmail.com','ISPARTA','AYÃE','MEHMET',NULL)
+insert into kimlik values('11111111111','E','B','07/05/2002','5308603510','eyar.ybs@gmail.com','BALIKESÃR','YAREN','ENGÃN',NULL)
+insert into kimlik values('11111111112','E','A','07/05/2001','5322148186','enir.ybs@gmail.com','ANTALYA','SÃNEM','DEMÃR',NULL)
+insert into kimlik values('11111111113','C','A,','07/05/2003','5457280929','celan.ybs@gmail.com','KASTAMONU','NALAN','ALTAN',NULL)
+insert into kimlik values('11111111114','AZ','K','07/05/2004','5308603510','azrnci.ybs@gmail.com','ÃZMÃR','ZARA','ARAS',NULL)
+insert into kimlik values('11111111115','F','A','07/04/2004','5550410803','fil.ybs@gmail.com','NAZÃLLÃ','DENÃZ','AKIN',NULL)
+insert into kimlik values('11111111116','H','D','05-17-2004','5444312004','hahim.ybs@gmail.com','OSMANÃYE','ALÃYE','OSMAN',NULL)
+insert into kimlik values('11111111117','Ã–','T','07/09/2004','5424426517','Ã¶fuk.ybs@gmail.com','ANTALYA','FATMA','POLAT',NULL)
+insert into kimlik values('11111111118','Ã‡','Y','07/05/2005','5331472404','in.ybs@gmail.com','ÃZMÃR','AZRA','HAKAN',NULL)
+insert into kimlik values('11111111119','C','G','01/01/2004','5538165454','CGA.ybs@gmail.com','ANTALYA','HAYDAR','ALÃYE',NULL)
+insert into kimlik values('11111111120','S','B','01/01/2004','5453109117','sbi.ybs@gmail.com','Ã‡ANAKKALE','EMÃNE','EKREM',NULL)
+insert into kimlik values('11111111121','B','T','01/01/2004','5435854180','btglu.ybs@gmail.com','BURSA','BAHAR','BAHRÃ',NULL)
+insert into kimlik values('11111111122','A','B','01/01/2004','5531317198','abl.ybs@gmail.com','ALANYA','AYÃE','BÃROL',NULL)
+insert into kimlik values('11111111123','M','G','01/01/2004','5367980476','MN.ybs@gmail.com','SÃNOP','CANAN','MERT',NULL)
+insert into kimlik values('11111111124','M','K','01/01/2004','5351000000','mc.ybs@gmail.com','ANTALYA','AYÃE','MUSTAFA',NULL)
+insert into kimlik values('11111111125','B','Ã','01/01/2004','1001001000','B.ybs@gmail.com','AYDIN','GÃœLSÃœM','RAMAZAN',NULL)
 
 /*personeller*/
-insert into kimlik values('10000000000','RAMAZAN','ERTURGUT',NULL,'2422272079','rerturgut@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000001','HAKAN','ER',NULL,'2422274400','erhakan@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000002','Şerife Gözde','YİRMİBEŞOĞLU',NULL,'2422274400','gozdey@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000003','SEZGİN','IRMAK',NULL,'2422274400','sezgin@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000004','FAHRİYE','MERDİVENCİ',NULL,'2422274400','fahriye@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000005','ÖMÜR','TOSUN',NULL,'2422274400','omurtosun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000006','HALİL','ÖZEKİCİOĞLU',NULL,'2422274400','hozekicioglu@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000007','İbrahim Taylan','DÖRTYOL',NULL,'2422274400','taylandortyol@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000008','Ayşen COŞKUN','ÇELEN',NULL,'2422274400','aysencoskun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000009','YUNUS','KILIÇ',NULL,'2422274400','yunuskilic@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000010','SEDA','SÖNMEZ',NULL,'2422274400','sedasonmez@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000011','Kerim Kürşat','ÇEVİK',NULL,'2422274400','kcevik@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000012','Raife Meltem','YETKİN ÖZBÜK',NULL,'2422274400',' rmyetkin@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000013','FİLİZ','YETİZ',NULL,'2422274400','filizyetiz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000000','R','ET',NULL,'2422272079','rerturgut@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000001','H','ER',NULL,'2422274400','erhakan@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000002','e Gde','YÃRMÃBEÃOÃLU',NULL,'2422274400','gozdey@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000003','SEZN','IK',NULL,'2422274400','sezgin@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000004','FE','M',NULL,'2422274400','fahriye@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000005','Ã–MÃœR','TOSUN',NULL,'2422274400','omurtosun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000006','HALÃL','Ã–ZEKÃCÃOÃLU',NULL,'2422274400','hozekicioglu@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000007','Ãbrahim Taylan','DÃ–RTYOL',NULL,'2422274400','taylandortyol@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000008','AyÃ¾en COÃKUN','Ã‡ELEN',NULL,'2422274400','aysencoskun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000009','YUNUS','KILIÃ‡',NULL,'2422274400','yunuskilic@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000010','SEDA','SÃ–NMEZ',NULL,'2422274400','sedasonmez@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000011','Kerim KÃ¼rÃ¾at','Ã‡EVÃK',NULL,'2422274400','kcevik@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000012','Raife Meltem','YETKÃN Ã–ZBÃœK',NULL,'2422274400',' rmyetkin@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000013','FÃLÃZ','YETÃZ',NULL,'2422274400','filizyetiz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000014','NURAY','AKAR',NULL,'2422274400','nurayyapici@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000015','NURİ','AVŞARGİL',NULL,'2422274400','nuriavsarligil@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000016','TAYFUN','YÖRÜK',NULL,'2422274400','tayfunyoruk@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000015','NURÃ','AVÃARGÃL',NULL,'2422274400','nuriavsarligil@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000016','TAYFUN','YÃ–RÃœK',NULL,'2422274400','tayfunyoruk@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000017','CENK','TUFAN',NULL,'2422274400','cenktufan@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000018','AYŞEGÜL','CİĞER',NULL,'2422274400','aysegulc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000019','Nihan','ÖKSÜZ NARİNÇ',NULL,'2422274400','nihanoksuz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000020','Mustafa Özer','ALPSAR',NULL,'2422274400','oalpar@akdeniz.edu.tr',NULL,NULL,NULL,NULL)/*HATALI KAYIT*/
- /* kayıt düzeltme*/
+insert into kimlik values('10000000018','AYÃEGÃœL','CÃÃER',NULL,'2422274400','aysegulc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000019','Nihan','Ã–KSÃœZ NARÃNÃ‡',NULL,'2422274400','nihanoksuz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000020','Mustafa Ã–zer','ALPSAR',NULL,'2422274400','oalpar@akdeniz.edu.tr',NULL,NULL,NULL,NULL)/*HATALI KAYIT*/
+ /* kayÃ½t dÃ¼zeltme*/
 update kimlik set s_ad='ALPAR' where s_ad='ALPSAR'
 
-insert into kimlik values('10000000021','HÜSEYİN','TOPUZ',NULL,'2422274400','huseyintopuz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000021','HÃœSEYÃN','TOPUZ',NULL,'2422274400','huseyintopuz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000022','Atiye Beyhan','AKAY',NULL,'2422274400','beyhanyilmaz@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000023','AHMET','TÜRKMEN',NULL,'2422274400','aturkmen@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000024','NİSA','EKŞİLİ',NULL,'2422274400','nisaeksili@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000025','GÜRAY','TONGUÇ',NULL,'2422274400','guraytonguc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000023','AHMET','TÃœRKMEN',NULL,'2422274400','aturkmen@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000024','NÃSA','EKÃÃLÃ',NULL,'2422274400','nisaeksili@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000025','GÃœRAY','TONGUÃ‡',NULL,'2422274400','guraytonguc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000026','AHMET','KAYAX',NULL,'2422274400','ahmetkaya@akdeniz.edu.tr',NULL,NULL,NULL,NULL) /*HATALI KAYIT*/
- /* kayıt düzeltme*/
+ /* kayÃ½t dÃ¼zeltme*/
 update kimlik set s_ad='KAYA' where s_ad='KAYAX'
 
 insert into kimlik values('10000000027','FURKAN','YILDIRIM',NULL,'2422274400','furkanyildirim@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000028','OSMAN','YAKIT',NULL,'2422274400','oyakit@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000029','İSMAİL','KARAYÜN',NULL,'2422274400','ismailkarayun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000030','Ayça','KANGAL DEMİR',NULL,'2422274400','aycakangal@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000031','NACİ','BÜYÜKDAĞ',NULL,'2422274400','nbuyukdag@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000029','ÃSMAÃL','KARAYÃœN',NULL,'2422274400','ismailkarayun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000030','AyÃ§a','KANGAL DEMÃR',NULL,'2422274400','aycakangal@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000031','NACÃ','BÃœYÃœKDAÃ',NULL,'2422274400','nbuyukdag@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000032','IRMAK','DALDIR',NULL,'2422274400','irmakdaldir@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000033','Artuğ Eren','COŞKUN',NULL,'2422274400','erencoskun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000034','Nesrin','KOÇ USTALI',NULL,'2422274400','nesrinkoc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
-insert into kimlik values('10000000035','ASLI','GÜVEN',NULL,'2422274400','asakarya@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000033','ArtuÃ° Eren','COÃKUN',NULL,'2422274400','erencoskun@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000034','Nesrin','KOÃ‡ USTALI',NULL,'2422274400','nesrinkoc@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
+insert into kimlik values('10000000035','ASLI','GÃœVEN',NULL,'2422274400','asakarya@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000036','TUBA','SARI',NULL,'2422274400','tubasari@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 insert into kimlik values('10000000036','TUBA','SARI',NULL,'2422274400','tubasari@akdeniz.edu.tr',NULL,NULL,NULL,NULL)
 
 /*
-insert into donem values('001','2022-2023 BAHAR')  /* hatalı kayıt girildi*/
-delete from donem where donem_no='001'  /* KAYIT SİLME GÖREVİ İÇİN*/ */
+insert into donem values('001','2022-2023 BAHAR')  /* hatalÃ½ kayÃ½t girildi*/
+delete from donem where donem_no='001'  /* KAYIT SÃLME GÃ–REVÃ ÃÃ‡ÃN*/ */
 
-insert into donem values('001','2022-2023 GÜZ')
+insert into donem values('001','2022-2023 GÃœZ')
 insert into donem values('002','2022-2023 BAHAR') 
-insert into donem values('003','2023-2024 GÜZ')
+insert into donem values('003','2023-2024 GÃœZ')
 insert into donem values('004','2023-2024 BAHAR') 
-insert into donem values('005','2024-2025 GÜZ')
+insert into donem values('005','2024-2025 GÃœZ')
 insert into donem values('006','2024-2025 BAHAR') 
-insert into donem values('007','2025-2026 GÜZ')
+insert into donem values('007','2025-2026 GÃœZ')
 insert into donem values('008','2025-2026 BAHAR')
 
-insert into kayit_tur values('YKS İLE KAYIT')
-insert into kayit_tur values('YATAY GEÇİŞ İLE KAYIT')
-insert into kayit_tur values('DİKEY GEÇİŞ İLE KAYIT')
-insert into kayit_tur values('YÜKSEKÖĞRENİM AFFI İLE YENİDEN KAYIT')
+insert into kayit_tur values('YKS ÃLE KAYIT')
+insert into kayit_tur values('YATAY GEÃ‡ÃÃ ÃLE KAYIT')
+insert into kayit_tur values('DÃKEY GEÃ‡ÃÃ ÃLE KAYIT')
+insert into kayit_tur values('YÃœKSEKÃ–ÃRENÃM AFFI ÃLE YENÃDEN KAYIT')
 
 
-insert into ogr_durum values('AKTİF')
-insert into ogr_durum values('PASİF-DONDURMA')
-insert into ogr_durum values('PASİF-ATILMA')
-insert into ogr_durum values('PASİF-MEZUN')
+insert into ogr_durum values('AKTÃF')
+insert into ogr_durum values('PASÃF-DONDURMA')
+insert into ogr_durum values('PASÃF-ATILMA')
+insert into ogr_durum values('PASÃF-MEZUN')
 
 
-insert into ders_durum values('1','GEÇTİ')
+insert into ders_durum values('1','GEÃ‡TÃ')
 insert into ders_durum values('2','KALDI')
-insert into ders_durum values('3','SORUMLU GEÇTİ')
+insert into ders_durum values('3','SORUMLU GEÃ‡TÃ')
 
 
-insert into tur values('1','ÖNLİSANS')
-insert into tur values('2','LİSANS')
+insert into tur values('1','Ã–NLÃSANS')
+insert into tur values('2','LÃSANS')
 
 
 insert into alan values('YAZILIM')
 insert into alan values('DONANIM')
-insert into alan values('İNSAN KAYNAKLARI')
+insert into alan values('ÃNSAN KAYNAKLARI')
 insert into alan values('PAZARLAMA')
-insert into alan values('SİGORTA')
+insert into alan values('SÃGORTA')
 insert into alan values('BANKACILIK')
 insert into alan values('HAVACILIK')
-insert into alan values('TİCARET')
+insert into alan values('TÃCARET')
 
 
-insert into unvan values('PROFESÖR DOKTOR')
-insert into unvan values('DOÇENT DOKTOR')
-insert into unvan values('DOKTOR ÖĞRETİM ÜYESİ')
-insert into unvan values('ARAŞTIRMA GÖREVLİSİ')
+insert into unvan values('PROFESÃ–R DOKTOR')
+insert into unvan values('DOÃ‡ENT DOKTOR')
+insert into unvan values('DOKTOR Ã–ÃRETÃM ÃœYESÃ')
+insert into unvan values('ARAÃTIRMA GÃ–REVLÃSÃ')
 
 
-insert into fakulte values('001','UYGULAMALI BİLİMLER FAKÜLTESİ','KAMPÜS','2422272079',null)
-insert into fakulte values('002','Diş Hekimliği Fakültesi','Akdeniz Üniversitesi Diş Hekimliği Fakültesi Dumlupınar Bulvarı 07058 Kampüs','2423106967',null)
-insert into fakulte values('003','Edebiyat Fakültesi','Akdeniz Üniversitesi Edebiyat Fakültesi Dumlupınar Bulvarı 07058 Kampus','2423102334',null)
-insert into fakulte values('004','Eğitim Fakültesi','Akdeniz Üniversitesi Eğitim Fakültesi Dekanlığı Dumlupınar Bulvarı, Kampus','2423101527',null)
-insert into fakulte values('005','Fen Fakültesi Fakültesi','Akdeniz Üniversitesi Fen Fakültesi Pınarbaşı Mah. Dumlupınar Bul. Kampüs ','2422278936',null)
-insert into fakulte values('006','Güzel Sanatlar Fakültesi','Akdeniz Üniversitesi Güzel Sanatlar Fakültesi Dekanlığı Dumlupınar Bulvarı 07058 Kampus ','2423106200',null)
-insert into fakulte values('007','Hemşirelik Fakültesi','Akdeniz Üniversitesi Dumlupınar Bulvarı, Akdeniz Üniversitesi Yerleşkesi','2422261358',null)
-insert into fakulte values('008','Hukuk Fakültesi','Akdeniz Üniversitesi Dumlupınar Bulvarı, Akdeniz Üniversitesi Yerleşkesi','2422276975',null)
-insert into fakulte values('009','İktisadi ve İdari Bilimler Fakültesi','Akdeniz Üniversitesi Dumlupınar Bulvarı, Akdeniz Üniversitesi Yerleşkesi','2423101810',null)
-insert into fakulte values('010','İlahiyat Fakültesi','Akdeniz Üniversitesi Dumlupınar Bulvarı 07058','2423106888',null)
-insert into fakulte values('011','İletişim Fakültesi','Akdeniz Üniversitesi Dumlupınar Bulvarı 07058','2423101553',null)
-insert into fakulte values('012','Kemer Denizcilik Fakültesi','Kemer Denizcilik Fakültesi Su Ürünleri Fakültesi','2422274400',null)
-insert into fakulte values('013','Kumluca Sağlık Bilimleri Fakültesi','Temel Eğitim Mah. Spor Cad. No: 14 Kumluca ','2428870910',null)
-insert into fakulte values('014','Manavgat Sosyal ve Beşeri Bilimler Fakültesi','Manavgat Sosyal ve Beşeri Bilimler Fakültesi 07600 ','2425038977',null)
-insert into fakulte values('015','Manavgat Turizm Fakültesi','Manavgat MATSO Turizm Fakültesi 07600','2427427026',null)
-insert into fakulte values('016','Mimarlık Fakültesi','Akdeniz Üniversitesi Mimarlık Fakültesi (Edebiyat Fakültesi Güneyi)','2422274400',null)
-insert into fakulte values('017','Mühendislik Fakültesi','Mühendislik Fakültesi Dumlupınar Bulvarı, Akdeniz Üniversitesi Yerleşkesi','2423106300',null)
-insert into fakulte values('018','Sağlık Bilimleri Fakültesi','Sağlık Bilimleri Fakültesi Pınarbaşı Mah. Dumlupınar Blv. 07058','2422275565',null)
-insert into fakulte values('019','Serik İşletme Fakültesi','Kökez Mahallesi 3002 Sok. No: 1 Serik','2427125021',null)
-insert into fakulte values('020','Spor Bilimleri Fakültesi','Spor Bilimleri Fakültesi, Dumlupınar Bulvarı, Yerleşke, ','2423101779',null)
-insert into fakulte values('021','Su Ürünleri Fakültesi','Akdeniz Üniversitesi Su Ürünleri Fakültesi Dumlupınar Bulvarı Yerleşke','2423101973',null)
-insert into fakulte values('022','Tıp Fakültesi','Akdeniz Üniversitesi Tıp Fakültesi Morfoloji Binası Yerleşke','2422496900',null)
-insert into fakulte values('023','Turizm Fakültesi','Akdeniz Üniversitesi Yerleşkesi, Dumlupınar Bulvarı 07058','2422274550',null)
-insert into fakulte values('024','Ziraat Fakültesi','Akdeniz Üniversitesi, Ziraat Fakültesi - 07059','2423102474',null)
+insert into fakulte values('001','UYGULAMALI BÃLÃMLER FAKÃœLTESÃ','KAMPÃœS','2422272079',null)
+insert into fakulte values('002','DiÃ¾ HekimliÃ°i FakÃ¼ltesi','Akdeniz Ãœniversitesi DiÃ¾ HekimliÃ°i FakÃ¼ltesi DumlupÃ½nar BulvarÃ½ 07058 KampÃ¼s','2423106967',null)
+insert into fakulte values('003','Edebiyat FakÃ¼ltesi','Akdeniz Ãœniversitesi Edebiyat FakÃ¼ltesi DumlupÃ½nar BulvarÃ½ 07058 Kampus','2423102334',null)
+insert into fakulte values('004','EÃ°itim FakÃ¼ltesi','Akdeniz Ãœniversitesi EÃ°itim FakÃ¼ltesi DekanlÃ½Ã°Ã½ DumlupÃ½nar BulvarÃ½, Kampus','2423101527',null)
+insert into fakulte values('005','Fen FakÃ¼ltesi FakÃ¼ltesi','Akdeniz Ãœniversitesi Fen FakÃ¼ltesi PÃ½narbaÃ¾Ã½ Mah. DumlupÃ½nar Bul. KampÃ¼s ','2422278936',null)
+insert into fakulte values('006','GÃ¼zel Sanatlar FakÃ¼ltesi','Akdeniz Ãœniversitesi GÃ¼zel Sanatlar FakÃ¼ltesi DekanlÃ½Ã°Ã½ DumlupÃ½nar BulvarÃ½ 07058 Kampus ','2423106200',null)
+insert into fakulte values('007','HemÃ¾irelik FakÃ¼ltesi','Akdeniz Ãœniversitesi DumlupÃ½nar BulvarÃ½, Akdeniz Ãœniversitesi YerleÃ¾kesi','2422261358',null)
+insert into fakulte values('008','Hukuk FakÃ¼ltesi','Akdeniz Ãœniversitesi DumlupÃ½nar BulvarÃ½, Akdeniz Ãœniversitesi YerleÃ¾kesi','2422276975',null)
+insert into fakulte values('009','Ãktisadi ve Ãdari Bilimler FakÃ¼ltesi','Akdeniz Ãœniversitesi DumlupÃ½nar BulvarÃ½, Akdeniz Ãœniversitesi YerleÃ¾kesi','2423101810',null)
+insert into fakulte values('010','Ãlahiyat FakÃ¼ltesi','Akdeniz Ãœniversitesi DumlupÃ½nar BulvarÃ½ 07058','2423106888',null)
+insert into fakulte values('011','ÃletiÃ¾im FakÃ¼ltesi','Akdeniz Ãœniversitesi DumlupÃ½nar BulvarÃ½ 07058','2423101553',null)
+insert into fakulte values('012','Kemer Denizcilik FakÃ¼ltesi','Kemer Denizcilik FakÃ¼ltesi Su ÃœrÃ¼nleri FakÃ¼ltesi','2422274400',null)
+insert into fakulte values('013','Kumluca SaÃ°lÃ½k Bilimleri FakÃ¼ltesi','Temel EÃ°itim Mah. Spor Cad. No: 14 Kumluca ','2428870910',null)
+insert into fakulte values('014','Manavgat Sosyal ve BeÃ¾eri Bilimler FakÃ¼ltesi','Manavgat Sosyal ve BeÃ¾eri Bilimler FakÃ¼ltesi 07600 ','2425038977',null)
+insert into fakulte values('015','Manavgat Turizm FakÃ¼ltesi','Manavgat MATSO Turizm FakÃ¼ltesi 07600','2427427026',null)
+insert into fakulte values('016','MimarlÃ½k FakÃ¼ltesi','Akdeniz Ãœniversitesi MimarlÃ½k FakÃ¼ltesi (Edebiyat FakÃ¼ltesi GÃ¼neyi)','2422274400',null)
+insert into fakulte values('017','MÃ¼hendislik FakÃ¼ltesi','MÃ¼hendislik FakÃ¼ltesi DumlupÃ½nar BulvarÃ½, Akdeniz Ãœniversitesi YerleÃ¾kesi','2423106300',null)
+insert into fakulte values('018','SaÃ°lÃ½k Bilimleri FakÃ¼ltesi','SaÃ°lÃ½k Bilimleri FakÃ¼ltesi PÃ½narbaÃ¾Ã½ Mah. DumlupÃ½nar Blv. 07058','2422275565',null)
+insert into fakulte values('019','Serik ÃÃ¾letme FakÃ¼ltesi','KÃ¶kez Mahallesi 3002 Sok. No: 1 Serik','2427125021',null)
+insert into fakulte values('020','Spor Bilimleri FakÃ¼ltesi','Spor Bilimleri FakÃ¼ltesi, DumlupÃ½nar BulvarÃ½, YerleÃ¾ke, ','2423101779',null)
+insert into fakulte values('021','Su ÃœrÃ¼nleri FakÃ¼ltesi','Akdeniz Ãœniversitesi Su ÃœrÃ¼nleri FakÃ¼ltesi DumlupÃ½nar BulvarÃ½ YerleÃ¾ke','2423101973',null)
+insert into fakulte values('022','TÃ½p FakÃ¼ltesi','Akdeniz Ãœniversitesi TÃ½p FakÃ¼ltesi Morfoloji BinasÃ½ YerleÃ¾ke','2422496900',null)
+insert into fakulte values('023','Turizm FakÃ¼ltesi','Akdeniz Ãœniversitesi YerleÃ¾kesi, DumlupÃ½nar BulvarÃ½ 07058','2422274550',null)
+insert into fakulte values('024','Ziraat FakÃ¼ltesi','Akdeniz Ãœniversitesi, Ziraat FakÃ¼ltesi - 07059','2423102474',null)
 
 
-insert into bolum values('01','YÖNETİM BİLİŞİM SİSTEMLERİ','001','2',NULL)
-insert into bolum values('02','ULUSLARARASI TİCARET VE LOJİSTİK','001','2',NULL)
+insert into bolum values('01','YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ','001','2',NULL)
+insert into bolum values('02','ULUSLARARASI TÃCARET VE LOJÃSTÃK','001','2',NULL)
 insert into bolum values('03','PAZARLAMA','001','2',NULL)
-insert into bolum values('04','FİNANS VE BANKACILIK','001','2',NULL)
-insert into bolum values('05','SİGORTACILIK','001','2',NULL)
+insert into bolum values('04','FÃNANS VE BANKACILIK','001','2',NULL)
+insert into bolum values('05','SÃGORTACILIK','001','2',NULL)
 insert into bolum values('06','HAVACILIK','001','2',NULL)
 
 
-/*1. yarıyıl dersleri*/
-insert into ders values('YBS151','Bilişim Sistemleri ve Teknolojilerine Giriş',2,0,2,4,'01','1')
-insert into ders values('YBS153','Algoritma ve Programlamaya Giriş',3,0,3,4,'01','1')
+/*1. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS151','BiliÃ¾im Sistemleri ve Teknolojilerine GiriÃ¾',2,0,2,4,'01','1')
+insert into ders values('YBS153','Algoritma ve Programlamaya GiriÃ¾',3,0,3,4,'01','1')
 insert into ders values('YBS155','Matematik',3,0,3,4,'01','1')
-insert into ders values('YBS157','Pazarlama İlkeleri',3,0,3,4,'01','1')
-insert into ders values('YBS159','İktisada Giriş I',3,0,3,4,'01','1')
-insert into ders values('TDB101','Türk Dili I',2,0,2,2,'01','1')
-insert into ders values('ATA101','Atatürk İlkeleri ve İnkılap Tarihi I',2,0,2,2,'01','1')
-insert into ders values('YBD101','İngilizce I',2,0,2,4,'01','1')
+insert into ders values('YBS157','Pazarlama Ãlkeleri',3,0,3,4,'01','1')
+insert into ders values('YBS159','Ãktisada GiriÃ¾ I',3,0,3,4,'01','1')
+insert into ders values('TDB101','TÃ¼rk Dili I',2,0,2,2,'01','1')
+insert into ders values('ATA101','AtatÃ¼rk Ãlkeleri ve ÃnkÃ½lap Tarihi I',2,0,2,2,'01','1')
+insert into ders values('YBD101','Ãngilizce I',2,0,2,4,'01','1')
 insert into ders values('KPD101','Kariyer Planlama',1,0,1,2,'01','1')
-/*2. yarıyıl dersleri*/
-insert into ders values('YBS152','Yönetim ve Organizasyon',3,0,3,5,'01','2')
-insert into ders values('YBS154','İleri Düzey Ofis Uygulamaları',2,0,2,4,'01','2')
-insert into ders values('YBS156','Bilgisayar Donanımı ve İşletim Sistemleri',3,0,3,4,'01','2')
-insert into ders values('YBS158','Veri Yapıları ve Algoritmalar',3,0,3,5,'01','2')
-insert into ders values('YBS160','İktisada Giriş II',3,0,3,4,'01','2')
-insert into ders values('TDB102','Türk Dili II',2,0,2,2,'01','2')
-insert into ders values('ATA102','Atatürk İlkeleri ve İnkılap Tarihi II',2,0,2,2,'01','2')
-insert into ders values('YBD102','İngilizce II',2,0,2,4,'01','2')
-/*3. yarıyıl dersleri*/
-insert into ders values('YBS251','Nesne Yönelimli Programlama - 1',3,0,3,4,'01','3')
-insert into ders values('YBS253','Web Tabanlı Programlama - 1',3,0,3,4,'01','3')
-insert into ders values('YBS255','Veritabanına Giriş',3,0,3,4,'01','3')
-insert into ders values('YBS257','Proje Yönetimi',3,0,3,4,'01','3')
-insert into ders values('YBS259','Örgütsel Davranış',3,0,3,4,'01','3')
-insert into ders values('YBS261','İstatistik I',3,0,3,3,'01','3')
-insert into ders values('YBS263','Uygulamalı Girişimcilik',3,0,3,4,'01','3')
+/*2. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS152','YÃ¶netim ve Organizasyon',3,0,3,5,'01','2')
+insert into ders values('YBS154','Ãleri DÃ¼zey Ofis UygulamalarÃ½',2,0,2,4,'01','2')
+insert into ders values('YBS156','Bilgisayar DonanÃ½mÃ½ ve ÃÃ¾letim Sistemleri',3,0,3,4,'01','2')
+insert into ders values('YBS158','Veri YapÃ½larÃ½ ve Algoritmalar',3,0,3,5,'01','2')
+insert into ders values('YBS160','Ãktisada GiriÃ¾ II',3,0,3,4,'01','2')
+insert into ders values('TDB102','TÃ¼rk Dili II',2,0,2,2,'01','2')
+insert into ders values('ATA102','AtatÃ¼rk Ãlkeleri ve ÃnkÃ½lap Tarihi II',2,0,2,2,'01','2')
+insert into ders values('YBD102','Ãngilizce II',2,0,2,4,'01','2')
+/*3. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS251','Nesne YÃ¶nelimli Programlama - 1',3,0,3,4,'01','3')
+insert into ders values('YBS253','Web TabanlÃ½ Programlama - 1',3,0,3,4,'01','3')
+insert into ders values('YBS255','VeritabanÃ½na GiriÃ¾',3,0,3,4,'01','3')
+insert into ders values('YBS257','Proje YÃ¶netimi',3,0,3,4,'01','3')
+insert into ders values('YBS259','Ã–rgÃ¼tsel DavranÃ½Ã¾',3,0,3,4,'01','3')
+insert into ders values('YBS261','Ãstatistik I',3,0,3,3,'01','3')
+insert into ders values('YBS263','UygulamalÃ½ GiriÃ¾imcilik',3,0,3,4,'01','3')
 insert into ders values('YBS265','Genel Muhasebe I ',3,0,3,3,'01','3')
-/*4. yarıyıl dersleri*/
-insert into ders values('YBS252','Nesne Yönelimli Programlama - 2',3,0,3,4,'01','4')
-insert into ders values('YBS254','Web Tabanlı Programlama - 2',3,0,3,4,'01','4')
-insert into ders values('YBS256','Veritabanına Yönetim Sistemleri',3,0,3,4,'01','4')
-insert into ders values('YBS258','Bilimsel Araştırma Yöntemleri',3,0,3,4,'01','4')
-insert into ders values('YBS260','Üretim Yönetimi',3,0,3,4,'01','4')
-insert into ders values('YBS262','İstatistik II',3,0,3,3,'01','4')
-insert into ders values('YBS264','Sistem Analizi ve Tasarımı',3,0,3,4,'01','4')
+/*4. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS252','Nesne YÃ¶nelimli Programlama - 2',3,0,3,4,'01','4')
+insert into ders values('YBS254','Web TabanlÃ½ Programlama - 2',3,0,3,4,'01','4')
+insert into ders values('YBS256','VeritabanÃ½na YÃ¶netim Sistemleri',3,0,3,4,'01','4')
+insert into ders values('YBS258','Bilimsel AraÃ¾tÃ½rma YÃ¶ntemleri',3,0,3,4,'01','4')
+insert into ders values('YBS260','Ãœretim YÃ¶netimi',3,0,3,4,'01','4')
+insert into ders values('YBS262','Ãstatistik II',3,0,3,3,'01','4')
+insert into ders values('YBS264','Sistem Analizi ve TasarÃ½mÃ½',3,0,3,4,'01','4')
 insert into ders values('YBS266','Genel Muhasebe II',3,0,3,3,'01','4')
-/*5. yarıyıl dersleri*/
-insert into ders values('YBS351','Veri İletişimi ve Bilgisayar Ağları',3,0,3,5,'01','5')
-insert into ders values('YBS353','Mobil Uygulama Geliştirme',3,0,3,5,'01','5')
-insert into ders values('YBS355','Grafik ve Bilişim Arayüz Tasarımı',3,0,3,4,'01','5')
-insert into ders values('YBS357','Yöneylem Araştırması I',3,0,3,4,'01','5')
-insert into ders values('TDP301','Toplumsal Duyarlılık ve Katkı',2,0,2,2,'01','5')
+/*5. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS351','Veri ÃletiÃ¾imi ve Bilgisayar AÃ°larÃ½',3,0,3,5,'01','5')
+insert into ders values('YBS353','Mobil Uygulama GeliÃ¾tirme',3,0,3,5,'01','5')
+insert into ders values('YBS355','Grafik ve BiliÃ¾im ArayÃ¼z TasarÃ½mÃ½',3,0,3,4,'01','5')
+insert into ders values('YBS357','YÃ¶neylem AraÃ¾tÃ½rmasÃ½ I',3,0,3,4,'01','5')
+insert into ders values('TDP301','Toplumsal DuyarlÃ½lÃ½k ve KatkÃ½',2,0,2,2,'01','5')
 insert into ders values('YBS361','Karar Verme Teknikleri',3,0,3,4,'01','5')
-/* 5.yarıyıl seçmeli dersler*/
-insert into ders values('YBS381','Dijital Ürün Yönetimi',3,0,3,3,'01','5')
-insert into ders values('YBS383','Bilgisayarlı Muhasebe',3,0,3,3,'01','5')
-insert into ders values('YBS385','Bilişim Hukuku',3,0,3,3,'01','5')
-insert into ders values('YBS387','Tüketici Davranışları',3,0,3,3,'01','5')
-insert into ders values('YBS389','Stratejik Yönetim',3,0,3,3,'01','5')
+/* 5.yarÃ½yÃ½l seÃ§meli dersler*/
+insert into ders values('YBS381','Dijital ÃœrÃ¼n YÃ¶netimi',3,0,3,3,'01','5')
+insert into ders values('YBS383','BilgisayarlÃ½ Muhasebe',3,0,3,3,'01','5')
+insert into ders values('YBS385','BiliÃ¾im Hukuku',3,0,3,3,'01','5')
+insert into ders values('YBS387','TÃ¼ketici DavranÃ½Ã¾larÃ½',3,0,3,3,'01','5')
+insert into ders values('YBS389','Stratejik YÃ¶netim',3,0,3,3,'01','5')
 
-/*6. yarıyıl dersleri*/
+/*6. yarÃ½yÃ½l dersleri*/
 insert into ders values('YBS352','Bilgi Sistemleri Entegrasyonu ',3,0,3,4,'01','6')
-insert into ders values('YBS354','Yapay Zekâ ve Makine Öğrenmesi ',3,0,3,4,'01','6')
-insert into ders values('YBS356','İnsan Kaynakları Yönetimi',3,0,3,4,'01','6')
-insert into ders values('YBS358','Yöneylem Araştırması II',3,0,3,4,'01','6')
-insert into ders values('YBS360','Sistem Yönetimi ve Güvenliği',3,0,3,4,'01','6')
-insert into ders values('YBS362',' Finansal Yönetim',3,0,3,4,'01','6')
-/*6. yarıyıl seçmeli dersler*/
-insert into ders values('YBS382','İnsan Bilgisayar Etkileşimi',2,0,2,3,'01','6')
-insert into ders values('YBS384','Simülasyon Modelleri ve Analizi',3,0,3,3,'01','6')
-insert into ders values('YBS386','Bilgisayar Tabanlı Optimizasyon Uygulamaları ',3,0,3,3,'01','6')
+insert into ders values('YBS354','Yapay ZekÃ¢ ve Makine Ã–Ã°renmesi ',3,0,3,4,'01','6')
+insert into ders values('YBS356','Ãnsan KaynaklarÃ½ YÃ¶netimi',3,0,3,4,'01','6')
+insert into ders values('YBS358','YÃ¶neylem AraÃ¾tÃ½rmasÃ½ II',3,0,3,4,'01','6')
+insert into ders values('YBS360','Sistem YÃ¶netimi ve GÃ¼venliÃ°i',3,0,3,4,'01','6')
+insert into ders values('YBS362',' Finansal YÃ¶netim',3,0,3,4,'01','6')
+/*6. yarÃ½yÃ½l seÃ§meli dersler*/
+insert into ders values('YBS382','Ãnsan Bilgisayar EtkileÃ¾imi',2,0,2,3,'01','6')
+insert into ders values('YBS384','SimÃ¼lasyon Modelleri ve Analizi',3,0,3,3,'01','6')
+insert into ders values('YBS386','Bilgisayar TabanlÃ½ Optimizasyon UygulamalarÃ½ ',3,0,3,3,'01','6')
 
-/*7. yarıyıl dersleri*/
+/*7. yarÃ½yÃ½l dersleri*/
 insert into ders values('YBS451','Kurumsal Kaynak Planlama',3,0,3,5,'01','7')
-insert into ders values('YBS453','Yönetim Bilişim Sistemlerinde Güncel Konular',2,0,2,5,'01','7')
-/*7. yarıyıl secmeli dersler*/
-insert into ders values('YBS481','Kurumsal Veri Yönetimi',3,0,3,4,'01','7')
-insert into ders values('YBS483','Uygulamalı Veri Madenciliği',3,0,3,4,'01','7')
-insert into ders values('YBS485','Derin Öğrenme',3,0,3,4,'01','7')
-insert into ders values('YBS487','Müşteri İlişkileri Yönetimi',3,0,3,4,'01','7')
-insert into ders values('YBS489','Tedarik Zinciri Yönetimi',3,0,3,4,'01','7')
-insert into ders values('YBS491','E-İş Yönetimi',3,0,3,4,'01','7')
+insert into ders values('YBS453','YÃ¶netim BiliÃ¾im Sistemlerinde GÃ¼ncel Konular',2,0,2,5,'01','7')
+/*7. yarÃ½yÃ½l secmeli dersler*/
+insert into ders values('YBS481','Kurumsal Veri YÃ¶netimi',3,0,3,4,'01','7')
+insert into ders values('YBS483','UygulamalÃ½ Veri MadenciliÃ°i',3,0,3,4,'01','7')
+insert into ders values('YBS485','Derin Ã–Ã°renme',3,0,3,4,'01','7')
+insert into ders values('YBS487','MÃ¼Ã¾teri ÃliÃ¾kileri YÃ¶netimi',3,0,3,4,'01','7')
+insert into ders values('YBS489','Tedarik Zinciri YÃ¶netimi',3,0,3,4,'01','7')
+insert into ders values('YBS491','E-ÃÃ¾ YÃ¶netimi',3,0,3,4,'01','7')
 insert into ders values('YBS493','Maliyet Muhasebesi ',3,0,3,4,'01','7')
-insert into ders values('YBS495','Robotik Uygulamaları',3,0,3,4,'01','7')
+insert into ders values('YBS495','Robotik UygulamalarÃ½',3,0,3,4,'01','7')
 
-/*8. yarıyıl dersleri*/
-insert into ders values('YBS402','İş Yerinde Eğitim',0,40,0,30,'01','8')
+/*8. yarÃ½yÃ½l dersleri*/
+insert into ders values('YBS402','ÃÃ¾ Yerinde EÃ°itim',0,40,0,30,'01','8')
 
-/* hoca veri girişi*/
+/* hoca veri giriÃ¾i*/
 insert into personel values('100000','10000000003','01',1,1)
 insert into personel values('111111','10000000000',null,1,8)
 insert into personel values('111112','10000000001','04',1,6)
@@ -412,7 +412,7 @@ insert into personel values('111144','10000000035','03',4,4)
 insert into personel values('111145','10000000036','01',4,3)
 
 
-/*ders_personel veri girişi 2022/2023 GÜZ*/
+/*ders_personel veri giriÃ¾i 2022/2023 GÃœZ*/
 insert into ders_personel values('111134', 'YBS151', '001')
 insert into ders_personel values('111115', 'YBS153', '001')
 insert into ders_personel values('111115', 'YBS155', '001')
@@ -423,7 +423,7 @@ insert into ders_personel values(NULL, 'ATA101', '001')
 insert into ders_personel values(NULL, 'YBD101', '001')
 insert into ders_personel values('111123', 'KPD101', '001')
 
-/*ders_personel veri girişi 2022/2023 BAHAR*/
+/*ders_personel veri giriÃ¾i 2022/2023 BAHAR*/
 insert into ders_personel values('111123', 'YBS152', '002')
 insert into ders_personel values('111125', 'YBS154', '002')
 insert into ders_personel values('111134', 'YBS156', '002')
@@ -433,7 +433,7 @@ insert into ders_personel values(NULL, 'TDB102', '002')
 insert into ders_personel values(NULL, 'ATA102', '002')
 insert into ders_personel values(NULL, 'YBD102', '002')
 
-/*ders_personel veri girişi 2023/2024 GÜZ*/
+/*ders_personel veri giriÃ¾i 2023/2024 GÃœZ*/
 insert into ders_personel values('111125', 'YBS251', '003')
 insert into ders_personel values('111125', 'YBS253', '003')
 insert into ders_personel values('999999', 'YBS255', '003')
@@ -443,7 +443,7 @@ insert into ders_personel values('111124', 'YBS261', '003')
 insert into ders_personel values('111123', 'YBS263', '003')
 insert into ders_personel values('111136', 'YBS265', '003')
 
-/*ders_personel veri girişi 2023/2024 GÜBAHAR*/
+/*ders_personel veri giriÃ¾i 2023/2024 GÃœBAHAR*/
 insert into ders_personel values('111125', 'YBS252', '004')
 insert into ders_personel values('111125', 'YBS254', '004')
 insert into ders_personel values('999999', 'YBS256', '004')
@@ -453,7 +453,7 @@ insert into ders_personel values('111124', 'YBS262', '004')
 insert into ders_personel values('111115', 'YBS264', '004')
 insert into ders_personel values('111136', 'YBS266', '004')
 
-/* ogr_kayit tablo veri girişi*/
+/* ogr_kayit tablo veri giriÃ¾i*/
 insert into ogr_kayit values('20224703008', '32872161954', '01', '2022/08/22', 1, null, 3.88, 1)
 insert into ogr_kayit values('20220000001', '11111111111', '01', '2022/08/22', 1, null, null, 1)
 insert into ogr_kayit values('20220000002', '11111111112', '01', '2022/08/22', 1, null, null, 1)
@@ -470,7 +470,7 @@ insert into ogr_kayit values('20220000012', '11111111123', '01', '2022/08/22', 1
 insert into ogr_kayit values('20220000013', '11111111124', '01', '2022/08/22', 1, null, null, 1)
 insert into ogr_kayit values('20220000014', '11111111125', '01', '2022/08/22', 1, null, null, 1)
 
-/*1. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*1. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20224703008', 'YBS151', 96,96,NULL,NULL,'1', '001')
 insert into ders_kayit values('20224703008', 'YBS153', 90,100,NULL,NULL,'1', '001')
 insert into ders_kayit values('20224703008', 'YBS155', 95,75,NULL,NULL,'1', '001')
@@ -481,7 +481,7 @@ insert into ders_kayit values('20224703008', 'YBD101', 95,95,NULL,NULL,'1', '001
 insert into ders_kayit values('20224703008', 'KPD101', 85,96,NULL,NULL,'1', '001')
 insert into ders_kayit values('20224703008', 'ATA101', 70,100,NULL,NULL,'1', '001')
 
-/*1. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*1. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20224703008', 'YBS152', 100,100,NULL,NULL,'1', '002')
 insert into ders_kayit values('20224703008', 'YBS154', 90,95,NULL,NULL,'1', '002')
 insert into ders_kayit values('20224703008', 'YBS156', 92,92,NULL,NULL,'1', '002')
@@ -491,7 +491,7 @@ insert into ders_kayit values('20224703008', 'TDB102', 85,80,NULL,NULL,'1', '002
 insert into ders_kayit values('20224703008', 'YBD102', 95,95,NULL,NULL,'1', '002')
 insert into ders_kayit values('20224703008', 'ATA102', 95,100,NULL,NULL,'1', '002')
 
-/*1. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*1. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20224703008', 'YBS251', 96,92,NULL,NULL,'1', '003')
 insert into ders_kayit values('20224703008', 'YBS253', 80,68,NULL,NULL,'1', '003')
 insert into ders_kayit values('20224703008', 'YBS255', 80,78,NULL,NULL,'1', '003')
@@ -501,7 +501,7 @@ insert into ders_kayit values('20224703008', 'YBS261', 95,90,NULL,NULL,'1', '003
 insert into ders_kayit values('20224703008', 'YBS263', 94,92,NULL,NULL,'1', '003')
 insert into ders_kayit values('20224703008', 'YBS265', 80,90,NULL,NULL,'1', '003')
 
-/*2. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*2. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000001', 'YBS151', 90,90,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000001', 'YBS153', 75,85,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000001', 'YBS155', 75,85,NULL,NULL,'1', '001')
@@ -512,7 +512,7 @@ insert into ders_kayit values('20220000001', 'YBD101', 85,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000001', 'KPD101', 78,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000001', 'ATA101', 100,100,NULL,NULL,'1', '001')
 
-/*2. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*2. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000001', 'YBS152', 68,86,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000001', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000001', 'YBS156', 86,78,NULL,NULL,'1', '002')
@@ -522,7 +522,7 @@ insert into ders_kayit values('20220000001', 'TDB102', 80,85,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000001', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000001', 'ATA102', 59,90,NULL,NULL,'1', '002')
 
-/*2. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*2. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000001', 'YBS251', 92,96,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000001', 'YBS253', 68,86,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000001', 'YBS255', 78,87,NULL,NULL,'1', '003')
@@ -532,7 +532,7 @@ insert into ders_kayit values('20220000001', 'YBS261', 59,95,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000001', 'YBS263', 49,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000001', 'YBS265', 90,80,NULL,NULL,'1', '003')
 
-/*3. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*3. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000002', 'YBS151', 65,56,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000002', 'YBS153', 58,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000002', 'YBS155', 75,69,NULL,NULL,'1', '001')
@@ -543,7 +543,7 @@ insert into ders_kayit values('20220000002', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000002', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000002', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*3. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*3. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000002', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000002', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000002', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -553,7 +553,7 @@ insert into ders_kayit values('20220000002', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000002', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000002', 'ATA102', 59,90,NULL,NULL,'1', '002')
 
-/*3. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*3. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000002', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000002', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000002', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -563,7 +563,7 @@ insert into ders_kayit values('20220000002', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000002', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000002', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*4. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*4. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000003', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000003', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000003', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -574,7 +574,7 @@ insert into ders_kayit values('20220000003', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000003', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000003', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*4. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*4. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000003', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000003', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000003', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -584,7 +584,7 @@ insert into ders_kayit values('20220000003', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000003', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000003', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*4. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*4. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000003', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000003', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000003', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -594,7 +594,7 @@ insert into ders_kayit values('20220000003', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000003', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000003', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*5. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*5. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000004', 'YBS151', 90,90,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000004', 'YBS153', 75,85,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000004', 'YBS155', 75,85,NULL,NULL,'1', '001')
@@ -605,7 +605,7 @@ insert into ders_kayit values('20220000004', 'YBD101', 85,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000004', 'KPD101', 78,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000004', 'ATA101', 68,86,NULL,NULL,'1', '001')
 
-/*5. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*5. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000004', 'YBS152', 68,86,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000004', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000004', 'YBS156', 86,78,NULL,NULL,'1', '002')
@@ -615,7 +615,7 @@ insert into ders_kayit values('20220000004', 'TDB102', 80,85,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000004', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000004', 'ATA102', 59,90,NULL,NULL,'1', '002')
 
-/*5. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*5. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000004', 'YBS251', 92,96,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000004', 'YBS253', 68,86,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000004', 'YBS255', 78,87,NULL,NULL,'1', '003')
@@ -625,7 +625,7 @@ insert into ders_kayit values('20220000004', 'YBS261', 59,95,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000004', 'YBS263', 49,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000004', 'YBS265', 90,80,NULL,NULL,'1', '003')
 
-/*6. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*6. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000005', 'YBS151', 65,56,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000005', 'YBS153', 82,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000005', 'YBS155', 75,69,NULL,NULL,'1', '001')
@@ -636,7 +636,7 @@ insert into ders_kayit values('20220000005', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000005', 'KPD101', 59,84,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000005', 'ATA101', 85,69,NULL,NULL,'1', '001')
 
-/*6. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*6. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000005', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000005', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000005', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -646,7 +646,7 @@ insert into ders_kayit values('20220000005', 'TDB102', 60,85,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000005', 'YBD102', 65,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000005', 'ATA102', 62,90,NULL,NULL,'1', '002')
 
-/*6. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*6. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000005', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000005', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000005', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -656,7 +656,7 @@ insert into ders_kayit values('20220000005', 'YBS261', 95,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000005', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000005', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*7. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*7. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000006', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000006', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000006', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -667,7 +667,7 @@ insert into ders_kayit values('20220000006', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000006', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000006', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*7. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*7. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000006', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000006', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000006', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -677,7 +677,7 @@ insert into ders_kayit values('20220000006', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000006', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000006', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*7. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*7. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000006', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000006', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000006', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -687,7 +687,7 @@ insert into ders_kayit values('20220000006', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000006', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000006', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*8. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*8. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000007', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000007', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000007', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -698,7 +698,7 @@ insert into ders_kayit values('20220000007', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000007', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000007', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*8. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*8. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000007', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000007', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000007', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -708,7 +708,7 @@ insert into ders_kayit values('20220000007', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000007', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000007', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*8. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*8. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000007', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000007', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000007', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -718,7 +718,7 @@ insert into ders_kayit values('20220000007', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000007', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000007', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*9. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*9. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000008', 'YBS151', 65,56,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000008', 'YBS153', 82,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000008', 'YBS155', 75,69,NULL,NULL,'1', '001')
@@ -729,7 +729,7 @@ insert into ders_kayit values('20220000008', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000008', 'KPD101', 59,84,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000008', 'ATA101', 85,69,NULL,NULL,'1', '001')
 
-/*9. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*9. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000008', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000008', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000008', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -739,7 +739,7 @@ insert into ders_kayit values('20220000008', 'TDB102', 60,85,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000008', 'YBD102', 65,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000008', 'ATA102', 62,90,NULL,NULL,'1', '002')
 
-/*9. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*9. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000008', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000008', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000008', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -749,7 +749,7 @@ insert into ders_kayit values('20220000008', 'YBS261', 95,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000008', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000008', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*10. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*10. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000009', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000009', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000009', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -760,7 +760,7 @@ insert into ders_kayit values('20220000009', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000009', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000009', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*10. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*10. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000009', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000009', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000009', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -770,7 +770,7 @@ insert into ders_kayit values('20220000009', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000009', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000009', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*10. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*10. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000009', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000009', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000009', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -782,7 +782,7 @@ insert into ders_kayit values('20220000009', 'YBS265', 80,80,NULL,NULL,'1', '003
 
 ---------------------------------------------------------------------------------
 
-/*11. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*11. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000010', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000010', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000010', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -793,7 +793,7 @@ insert into ders_kayit values('20220000010', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000010', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000010', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*11. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*11. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000010', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000010', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000010', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -803,7 +803,7 @@ insert into ders_kayit values('20220000010', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000010', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000010', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*11. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*11. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000010', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000010', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000010', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -813,7 +813,7 @@ insert into ders_kayit values('20220000010', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000010', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000010', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*12. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*12. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000011', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000011', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000011', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -824,7 +824,7 @@ insert into ders_kayit values('20220000011', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000011', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000011', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*12. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*12. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000011', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000011', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000011', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -834,7 +834,7 @@ insert into ders_kayit values('20220000011', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000011', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000011', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*12. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*12. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000011', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000011', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000011', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -844,7 +844,7 @@ insert into ders_kayit values('20220000011', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000011', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000011', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*13. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*13. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000012', 'YBS151', 65,56,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000012', 'YBS153', 82,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000012', 'YBS155', 75,69,NULL,NULL,'1', '001')
@@ -855,7 +855,7 @@ insert into ders_kayit values('20220000012', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000012', 'KPD101', 59,84,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000012', 'ATA101', 85,69,NULL,NULL,'1', '001')
 
-/*13. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*13. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000012', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000012', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000012', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -865,7 +865,7 @@ insert into ders_kayit values('20220000012', 'TDB102', 60,85,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000012', 'YBD102', 65,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000012', 'ATA102', 62,90,NULL,NULL,'1', '002')
 
-/*13. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*13. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000012', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000012', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000012', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -875,7 +875,7 @@ insert into ders_kayit values('20220000012', 'YBS261', 95,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000012', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000012', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*14. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*14. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000013', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000013', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000013', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -886,7 +886,7 @@ insert into ders_kayit values('20220000013', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000013', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000013', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*14. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*14. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000013', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000013', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000013', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -896,7 +896,7 @@ insert into ders_kayit values('20220000013', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000013', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000013', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*14. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*14. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000013', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000013', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000013', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -906,7 +906,7 @@ insert into ders_kayit values('20220000013', 'YBS261', 59,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000013', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000013', 'YBS265', 80,80,NULL,NULL,'1', '003')
 
-/*15. OGRENCI 1. DONEM ders kayit veri girişi*/
+/*15. OGRENCI 1. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000014', 'YBS151', 75,57,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000014', 'YBS153', 85,75,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000014', 'YBS155', 96,69,NULL,NULL,'1', '001')
@@ -917,7 +917,7 @@ insert into ders_kayit values('20220000014', 'YBD101', 58,58,NULL,NULL,'1', '001
 insert into ders_kayit values('20220000014', 'KPD101', 59,69,NULL,NULL,'1', '001')
 insert into ders_kayit values('20220000014', 'ATA101', 60,69,NULL,NULL,'1', '001')
 
-/*15. OGRENCI 2. DONEM ders kayit veri girişi*/
+/*15. OGRENCI 2. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000014', 'YBS152', 59,69,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000014', 'YBS154', 75,85,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000014', 'YBS156', 68,78,NULL,NULL,'1', '002')
@@ -927,7 +927,7 @@ insert into ders_kayit values('20220000014', 'TDB102', 60,58,NULL,NULL,'1', '002
 insert into ders_kayit values('20220000014', 'YBD102', 65,59,NULL,NULL,'1', '002')
 insert into ders_kayit values('20220000014', 'ATA102', 95,90,NULL,NULL,'1', '002')
 
-/*15. OGRENCI 3. DONEM ders kayit veri girişi*/
+/*15. OGRENCI 3. DONEM ders kayit veri giriÃ¾i*/
 insert into ders_kayit values('20220000014', 'YBS251', 80,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000014', 'YBS253', 68,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000014', 'YBS255', 78,80,NULL,NULL,'1', '003')
@@ -936,31 +936,31 @@ insert into ders_kayit values('20220000014', 'YBS259', 80,80,NULL,NULL,'1', '003
 insert into ders_kayit values('20220000014', 'YBS261', 59,80,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000014', 'YBS263', 70,94,NULL,NULL,'1', '003')
 insert into ders_kayit values('20220000014', 'YBS265', 80,80,NULL,NULL,'1', '003')
-/* tüm ödev bitti */
+/* tÃ¼m Ã¶dev bitti */
 
 
 /*02,04,2024 tarihli ders
 
 DCL - veri kontrol dili
 
-GRANT komutu - veri tabanı ve nesneler üzerinde izinler vermek için kullanılır.
-grant(all veya izinler) on(nesne veya veritabanı) to (kullanıcı)
+GRANT komutu - veri tabanÃ½ ve nesneler Ã¼zerinde izinler vermek iÃ§in kullanÃ½lÃ½r.
+grant(all veya izinler) on(nesne veya veritabanÃ½) to (kullanÃ½cÃ½)
 grant crate table TO deneme
 grant select ON ders_kayit TO hasanali
 grant all ON ders_kayit TO hasanali
 grant update, delete, select ON ders_kayit TO hasanali
-***login oluşturmaya da bak***
+***login oluÃ¾turmaya da bak***
 
-DENY komutu - veri tabanı ve nesneler üzerinde engellemeler koyma için kullanılır.
-deny grantten hiyerarşik olarak üsttedir.
-deny(all veya izinler) on(nesne veya veritabanı) to (kullanıcı)
+DENY komutu - veri tabanÃ½ ve nesneler Ã¼zerinde engellemeler koyma iÃ§in kullanÃ½lÃ½r.
+deny grantten hiyerarÃ¾ik olarak Ã¼sttedir.
+deny(all veya izinler) on(nesne veya veritabanÃ½) to (kullanÃ½cÃ½)
 deny crate table TO deneme
 deny select ON ders_kayit TO hasanali
 deny all ON ders_kayit TO hasanali
 deny update, delete, select ON ders_kayit TO hasanali
 
-REVOKE komutu - veri tabanı ve nesneler üzerinde izin ve engellemeleri iptal etmek için kullanılır.
-revoke (all veya izinler) on(nesne veya veritabanı) to (kullanıcı)
+REVOKE komutu - veri tabanÃ½ ve nesneler Ã¼zerinde izin ve engellemeleri iptal etmek iÃ§in kullanÃ½lÃ½r.
+revoke (all veya izinler) on(nesne veya veritabanÃ½) to (kullanÃ½cÃ½)
 revoke crate table TO deneme
 revoke select ON ders_kayit TO hasanali
 revoke all ON ders_kayit TO hasanali
@@ -972,114 +972,114 @@ select * from ders
 select ders_kod,ders_ad,akts from ders
 select ogr_no from ders_kayit
 
-distinc select te sorgu yapılan kayıtta birden çok veri dönerse bunu teke indirmek için kullanılır
-select distinc(ogr_no) from ders_kayit - ders kaydı yapan öğrenciler
+distinc select te sorgu yapÃ½lan kayÃ½tta birden Ã§ok veri dÃ¶nerse bunu teke indirmek iÃ§in kullanÃ½lÃ½r
+select distinc(ogr_no) from ders_kayit - ders kaydÃ½ yapan Ã¶Ã°renciler
 select distinc(sicil) from ders_personel - derse giren personeller
-order by - sıralama
-select * from fakulte order by f_ad - fakulteleri adına göre sırala
-select * from ders_kayit order by final - final notlarına göre sıralar(defaultta  küçükten büyüğe)
-select * from ders_kayit order by final desc - şimdi büyükten küçüğe sıralar
-select * from kimlik order by ad - kimlik tablosunu ada göre sırala
-select * from kimlik order by ad, s_ad - kimlik tablosunu ada sonra soyada göre alfabetik  sırala
-select * from kimlik order by ad desc, s_ad desc - kimlik tablosunu ada sonra soyada göre ters alfabetik  sırala
+order by - sÃ½ralama
+select * from fakulte order by f_ad - fakulteleri adÃ½na gÃ¶re sÃ½rala
+select * from ders_kayit order by final - final notlarÃ½na gÃ¶re sÃ½ralar(defaultta  kÃ¼Ã§Ã¼kten bÃ¼yÃ¼Ã°e)
+select * from ders_kayit order by final desc - Ã¾imdi bÃ¼yÃ¼kten kÃ¼Ã§Ã¼Ã°e sÃ½ralar
+select * from kimlik order by ad - kimlik tablosunu ada gÃ¶re sÃ½rala
+select * from kimlik order by ad, s_ad - kimlik tablosunu ada sonra soyada gÃ¶re alfabetik  sÃ½rala
+select * from kimlik order by ad desc, s_ad desc - kimlik tablosunu ada sonra soyada gÃ¶re ters alfabetik  sÃ½rala
 
-select * from ders where yyil=5 order by ders_ad - ders tablosundan 5. dönem dersleri getir ve ders adına göre sırala
+select * from ders where yyil=5 order by ders_ad - ders tablosundan 5. dÃ¶nem dersleri getir ve ders adÃ½na gÃ¶re sÃ½rala
 
-SÜTUNLAR İÇİN (görsel olarak) takma isim kullanma  AS komutu
+SÃœTUNLAR ÃÃ‡ÃN (gÃ¶rsel olarak) takma isim kullanma  AS komutu
 
 select tc_kimlik, ad,s_ad,d_tarih from kimlik order by d_tarih desc 
-select tc_kimlik as [Kimlik Numarası], ad as Adı,s_ad as Soyadı,d_tarih as [Doğum Tarihi] from kimlik order by d_tarih desc 
+select tc_kimlik as [Kimlik NumarasÃ½], ad as AdÃ½,s_ad as SoyadÃ½,d_tarih as [DoÃ°um Tarihi] from kimlik order by d_tarih desc 
 
-select ders_kod as [Dersin Adı],ders_ad as [Dersin Adı],akts as AKTS from ders
+select ders_kod as [Dersin AdÃ½],ders_ad as [Dersin AdÃ½],akts as AKTS from ders
 
-MATEMATİKSEL İŞLEMLER
+MATEMATÃKSEL ÃÃLEMLER
 select ogr_no, ders_kod, vize, final from ders_kayit
 select ogr_no, ders_kod, vize*0.4+final*0.6 as ORTALAMA from ders_kayit
 select ogr_no, ders_kod, vize*0.4+final*0.6 as ORTALAMA from ders_kayit where ders_kod='YBS156' and vize > 70
 
-ALFASAYISAL VERİ sütunların birleştirilmesi
+ALFASAYISAL VERÃ sÃ¼tunlarÃ½n birleÃ¾tirilmesi
 select tc_kimlik, ad+" "+s_ad as [Ad-Soyad] from kimlik
 
-KOŞULA bağlı sorgulamalar
+KOÃULA baÃ°lÃ½ sorgulamalar
 select * from ders_kayit where vize<65 and ders_kod='ATA102'
 select * from ders_kayit where vize>65 or ders_kod='ATA102'
 select * from ders_kayit where vize<>65 or ders_kod='ATA102'
 
-TARİH KOŞULU
+TARÃH KOÃULU
 
 select * from kimlik where d_tarih>'2002-11-06'
 select * from kimlik where d_tarih<'2002-11-06'
 select * from kimlik where d_tarih='2002-11-06'
 
-NOT önüne geldiği değerin tersini yapar
+NOT Ã¶nÃ¼ne geldiÃ°i deÃ°erin tersini yapar
 select * from ders_kayit where not vize = 65 */
  
 
- /* vize sonrası hafta*/
+ /* vize sonrasÃ½ hafta*/
 
  /* string fonksiyomnlar*/
- /* in komutu between komutu like komutu % operatörü substring ve  kullanımı*/
+ /* in komutu between komutu like komutu % operatÃ¶rÃ¼ substring ve  kullanÃ½mÃ½*/
  select * from ogr_kayit
- select * from kimlik where ad like 'a%' /* adı a ile başlayan*/
- select * from kimlik where ad like '%a' /* adı a ile biten*/
- select * from kimlik where ad like '%a%' /* adında a bulunan*/
- select * from kimlik where ad like 'a____' /*adı a ile başlayıp sonra 4 karakteri olan yani 5 harfli a ile başlayan*/
+ select * from kimlik where ad like 'a%' /* adÃ½ a ile baÃ¾layan*/
+ select * from kimlik where ad like '%a' /* adÃ½ a ile biten*/
+ select * from kimlik where ad like '%a%' /* adÃ½nda a bulunan*/
+ select * from kimlik where ad like 'a____' /*adÃ½ a ile baÃ¾layÃ½p sonra 4 karakteri olan yani 5 harfli a ile baÃ¾layan*/
 
- select SUBSTRING (ad,1,5) from kimlik /* kesip almaya yarar kimlik tablosunda ki tüm adların  1-5 karakterleri arasını alır*/
- select substring (ogr_no,1,4), ders_kod, vize from ders_kayit /* ders_kayit tablosundan öğrenci nosunun kayıt yılı kısmını ve notları getirdik.*/
- select upper(ad) from kimlik /* kimlik tablosundan ad verilerini buyuk harfli döndürür*/
- select lower (ad) from kimlik /* kimlik tablosundan ad verilerini kucuk harfli döndürür*/
- select rtrim(ltrim(ad)) from kimlik /*boşlukları atar rtim sağdan ltrim soldan*/
+ select SUBSTRING (ad,1,5) from kimlik /* kesip almaya yarar kimlik tablosunda ki tÃ¼m adlarÃ½n  1-5 karakterleri arasÃ½nÃ½ alÃ½r*/
+ select substring (ogr_no,1,4), ders_kod, vize from ders_kayit /* ders_kayit tablosundan Ã¶Ã°renci nosunun kayÃ½t yÃ½lÃ½ kÃ½smÃ½nÃ½ ve notlarÃ½ getirdik.*/
+ select upper(ad) from kimlik /* kimlik tablosundan ad verilerini buyuk harfli dÃ¶ndÃ¼rÃ¼r*/
+ select lower (ad) from kimlik /* kimlik tablosundan ad verilerini kucuk harfli dÃ¶ndÃ¼rÃ¼r*/
+ select rtrim(ltrim(ad)) from kimlik /*boÃ¾luklarÃ½ atar rtim saÃ°dan ltrim soldan*/
  select ad,s_ad from kimlik
- select ad,LEN(ad) as [Ad uzunluk],s_ad, len(s_ad) as [Soyad uzunluk] from kimlik /* len string verinin uzunluğunu verir*/
- select replace(ad,'a','b') from kimlik /* verinin gösterimini değiştirir ad da bulunan a ların hepsini b yaptık*/
- select ogr_no, ders_kod, vize, final, replace(ders_durum_no, '1', 'Geçti') as durum from ders_kayit /* bu sekilde 1 olan verileri geçti olarak gösterdik*/
- select bolum_ad, replace(f_no, '001', 'UBF') from bolum /* bolum tablosunda f_no su 1 olanları ubf şeklinde gösterdik*/
- /* as sütun başlıklarının gösterimini değiştirir replace ise veririn gösterimini değiştirir*/
+ select ad,LEN(ad) as [Ad uzunluk],s_ad, len(s_ad) as [Soyad uzunluk] from kimlik /* len string verinin uzunluÃ°unu verir*/
+ select replace(ad,'a','b') from kimlik /* verinin gÃ¶sterimini deÃ°iÃ¾tirir ad da bulunan a larÃ½n hepsini b yaptÃ½k*/
+ select ogr_no, ders_kod, vize, final, replace(ders_durum_no, '1', 'GeÃ§ti') as durum from ders_kayit /* bu sekilde 1 olan verileri geÃ§ti olarak gÃ¶sterdik*/
+ select bolum_ad, replace(f_no, '001', 'UBF') from bolum /* bolum tablosunda f_no su 1 olanlarÃ½ ubf Ã¾eklinde gÃ¶sterdik*/
+ /* as sÃ¼tun baÃ¾lÃ½klarÃ½nÃ½n gÃ¶sterimini deÃ°iÃ¾tirir replace ise veririn gÃ¶sterimini deÃ°iÃ¾tirir*/
 
- /* sayısal fonksiyonlar*/
+ /* sayÃ½sal fonksiyonlar*/
 
- /* ABS komutu mutlak değerini alır yanı negatif sayıları pozitife cevirir*/
- select ABS(-3) from fakulte /* kac fakulte varsa o kadar -3 ü mutlak değerini aldı. benim verilerimde - kayıt yok o yuzden*/
- /* floor ve celling aşağı yuvarlama da floor yukarı yuvarlamada ceiling normal yuvarlamada ise round kullanılır*/
- select distinct(ogr_no), vize*0.4+final*0.6 as ORT, round(84.625,1) as yuvarlanmış from ders_kayit where ders_kod='YBS265'
+ /* ABS komutu mutlak deÃ°erini alÃ½r yanÃ½ negatif sayÃ½larÃ½ pozitife cevirir*/
+ select ABS(-3) from fakulte /* kac fakulte varsa o kadar -3 Ã¼ mutlak deÃ°erini aldÃ½. benim verilerimde - kayÃ½t yok o yuzden*/
+ /* floor ve celling aÃ¾aÃ°Ã½ yuvarlama da floor yukarÃ½ yuvarlamada ceiling normal yuvarlamada ise round kullanÃ½lÃ½r*/
+ select distinct(ogr_no), vize*0.4+final*0.6 as ORT, round(84.625,1) as yuvarlanmÃ½Ã¾ from ders_kayit where ders_kod='YBS265'
  select ogr_no, vize*0.4+final*0.6 as ORT, floor(vize*0.4+final*0.6) from ders_kayit
  select ogr_no, vize*0.4+final*0.6 as ORT, ceiling(vize*0.4+final*0.6) from ders_kayit
 
- /* power sqrt üssü ve kökünü alma*/ 
+ /* power sqrt Ã¼ssÃ¼ ve kÃ¶kÃ¼nÃ¼ alma*/ 
  /* mod alma %*/
  select  POWER(2,3) from ders_kayit
  select  SQRT(9) from ders_kayit
  select  95%10 from ders_kayit
 
- /*charindex aranan değerin ilk bulunan indexini döndürür */  select ad,CHARINDEX('a', ad) from kimlik
+ /*charindex aranan deÃ°erin ilk bulunan indexini dÃ¶ndÃ¼rÃ¼r */  select ad,CHARINDEX('a', ad) from kimlik
 
- /* min max en alt ve en üst kayıtları getirir*/
+ /* min max en alt ve en Ã¼st kayÃ½tlarÃ½ getirir*/
 
- /* select case eğer yapısı denebilir*/
+ /* select case eÃ°er yapÃ½sÃ½ denebilir*/
 
-select *, case ders_durum_no when  '1' then 'geçti' when '0'  then 'Kaldı' else 'hata' end from ders_kayit
+select *, case ders_durum_no when  '1' then 'geÃ§ti' when '0'  then 'KaldÃ½' else 'hata' end from ders_kayit
 
 
-/* vize sonrası 3. ders 07/05 */
-/* min max kullanımı*/ 
+/* vize sonrasÃ½ 3. ders 07/05 */
+/* min max kullanÃ½mÃ½*/ 
 /*select ogr_no from ders_kayit where ders_kod='YBS151' and max(vize)*/ 
 select max(vize*0.4+final*0.6) as ORT from ders_kayit where ders_kod='YBS151'
 
 /* sum komutu*/ 
-select sum(AKTS) from ders /* ders tablosunun AKTS ler toplamı*/ 
+select sum(AKTS) from ders /* ders tablosunun AKTS ler toplamÃ½*/ 
 
-select min(vize)as MİN_VİZE, max(final)as MAX_FİNAL, sum(vize*0.4+final*0.6)as ORT_TOPLAM from ders_kayit 
+select min(vize)as MÃN_VÃZE, max(final)as MAX_FÃNAL, sum(vize*0.4+final*0.6)as ORT_TOPLAM from ders_kayit 
 
 /* avg komutu - otalama hesaplar*/
 
 select avg(final) as ORT from ders_kayit where ders_kod='YBS151'
 
-/* count komutu - bir sütunda kaç değer oldugunu bulmak için*/
+/* count komutu - bir sÃ¼tunda kaÃ§ deÃ°er oldugunu bulmak iÃ§in*/
 
-select count(distinct(ogr_no)) from ders_kayit /* ders kaydi yapan öğrenciler*/
+select count(distinct(ogr_no)) from ders_kayit /* ders kaydi yapan Ã¶Ã°renciler*/
 
-/* gruplandırma fonksiyonları*/ 
+/* gruplandÃ½rma fonksiyonlarÃ½*/ 
 /* select ogr_no from ders_kayit where ders_kod='YBS151' and group by ogr_no vize = having max(vize)   buraya tekrar bak */
 
 select min(vize) , ders_kod from ders_kayit group by ders_kod
@@ -1087,14 +1087,14 @@ select avg(vize) as ORT , ders_kod from ders_kayit group by ders_kod
 select ogr_no , avg(vize*0.4+final*0.6) as ORT from ders_kayit where ders_kod='YBS151' group by ogr_no order by ORT desc /* */
  /* gruplanacak fonksiyonlar max min sum avg ve count*/
 
- select ders_kod , avg (vize*0.4+final*0.6) as ORT , count(*) as KİSİSAYISI from ders_kayit group by ders_kod order by ORT desc
+ select ders_kod , avg (vize*0.4+final*0.6) as ORT , count(*) as KÃSÃSAYISI from ders_kayit group by ders_kod order by ORT desc
 
  select * from fakulte
  select f_adres from fakulte group by f_adres
- select yyil as YARIYIL, count (ders_kod) as DersSayısı, sum(AKTS) as DersAKTS from ders group by yyil
+ select yyil as YARIYIL, count (ders_kod) as DersSayÃ½sÃ½, sum(AKTS) as DersAKTS from ders group by yyil
 
  /* having komutu*/ 
- /* gruplandırma yapılırken şart fonksiyona bağlı ise where ile değil having ile şart yazılır*/
+ /* gruplandÃ½rma yapÃ½lÃ½rken Ã¾art fonksiyona baÃ°lÃ½ ise where ile deÃ°il having ile Ã¾art yazÃ½lÃ½r*/
 
  select ders_kod from ders_kayit
  select ders_kod from ders_kayit where ders_kod = 'YBS151' group by ders_kod
@@ -1103,29 +1103,29 @@ select ogr_no , avg(vize*0.4+final*0.6) as ORT from ders_kayit where ders_kod='Y
   select bolum_no, count(sicil) as SAYI  from personel group by bolum_no having count(sicil)>5
 
 
-  /* tarih fonksiyonları*/
-  select SYSDATETIME() as TARİH
-  select SYSDATETIMEOFFSET() as TARİH /* meridyen belirtkeli saast*/
-  select DATENAME(weekday, getdate()) as GÜN
+  /* tarih fonksiyonlarÃ½*/
+  select SYSDATETIME() as TARÃH
+  select SYSDATETIMEOFFSET() as TARÃH /* meridyen belirtkeli saast*/
+  select DATENAME(weekday, getdate()) as GÃœN
     select DATENAME(week, getdate()) as HAFTA
 	  select DATENAME(MONTH, getdate()) as AY
 	    select DATENAME(YEAR, getdate()) as YIL
-			select DATENAME(DAYOFYEAR, getdate()) as yılınincigünü
+			select DATENAME(DAYOFYEAR, getdate()) as yÃ½lÃ½nincigÃ¼nÃ¼
 
-/* cast tip dönüşümü*/
-/* select cast ('BİLGİSAYAR'  burada kaldım*/ 
-/* having ve group by sınavda sorarım sordugumu anlamazsınız dedi*/
+/* cast tip dÃ¶nÃ¼Ã¾Ã¼mÃ¼*/
+/* select cast ('BÃLGÃSAYAR'  burada kaldÃ½m*/ 
+/* having ve group by sÃ½navda sorarÃ½m sordugumu anlamazsÃ½nÃ½z dedi*/
 
 /*14.05.2024 tarihli ders*/
-/* tablo birleştirme */
+/* tablo birleÃ¾tirme */
 
-/* join ile tablo birleştirerek birden fazla tqabloda sorgu yapma*/
+/* join ile tablo birleÃ¾tirerek birden fazla tqabloda sorgu yapma*/
 
-select * from kimlik,ogr_kayit /* birden fazla tablodan tüm verileri cektik*/
+select * from kimlik,ogr_kayit /* birden fazla tablodan tÃ¼m verileri cektik*/
 select * from kimlik inner join ogr_kayit on kimlik.tc_kimlik=ogr_kayit.tc_kimlik /* burda ise ogr_kayit tablosunda tcsi 
-kimlik tablosunda tc ye eşit olanlar yani öğrenciler geldi*/
+kimlik tablosunda tc ye eÃ¾it olanlar yani Ã¶Ã°renciler geldi*/
 select ogr_kayit.ogr_no, kimlik. tc_kimlik, kimlik.ad, kimlik.s_ad from kimlik inner join ogr_kayit on kimlik.tc_kimlik=ogr_kayit.tc_kimlik
-/* yukarda ise tüm alanları değil sadece belli alanları cektik*/
+/* yukarda ise tÃ¼m alanlarÃ½ deÃ°il sadece belli alanlarÃ½ cektik*/
 
 /*select ogr_kayit.ogr_no, kimlik.tc_kimlik, kimlik.ad, kimlik.s_ad from kimlik inner join ogr_kayit where 
 kimlik.tc_kimlik=ogr_kayit.tc_kimlik*/
@@ -1140,14 +1140,14 @@ select * from personel, unvan, kimlik
 select * from kimlik join personel on kimlik.tc_kimlik=personel.tc_kimlik join unvan on personel.unvan_no=unvan.unvan_no
 
 select personel.sicil, unvan.unvan_ad, kimlik.ad, kimlik.s_ad from kimlik join personel on 
-kimlik.tc_kimlik=personel.tc_kimlik join unvan on personel.unvan_no=unvan.unvan_no where unvan.unvan_ad='PROFESÖR DOKTOR'/* join metod*/
+kimlik.tc_kimlik=personel.tc_kimlik join unvan on personel.unvan_no=unvan.unvan_no where unvan.unvan_ad='PROFESÃ–R DOKTOR'/* join metod*/
 
 select personel.sicil, unvan.unvan_ad, kimlik.ad, kimlik.s_ad from kimlik, personel, unvan where
-kimlik.tc_kimlik=personel.tc_kimlik and personel.unvan_no=unvan.unvan_no/* noktalı metod*/
+kimlik.tc_kimlik=personel.tc_kimlik and personel.unvan_no=unvan.unvan_no/* noktalÃ½ metod*/
 
 select ders.ders_kod, ders.ders_ad, ders.t, ders.u, ders.k, bolum.bolum_ad from donem join ders_kayit on 
 donem.donem_no=ders_kayit.donem_no join ders on ders_kayit.ders_kod  = ders.ders_kod 
-join bolum on ders.bolum_no=bolum.bolum_no where donem.donem='2023-2024 GÜZ' group by ders.ders_kod, ders.ders_ad, ders.t, ders.u, 
+join bolum on ders.bolum_no=bolum.bolum_no where donem.donem='2023-2024 GÃœZ' group by ders.ders_kod, ders.ders_ad, ders.t, ders.u, 
 ders.k, bolum.bolum_ad
 
 select de.ders_kod, de.ders_ad,de.akts, dk.vize, dk.final, do.donem from ogr_kayit ok join ders_kayit dk on 
@@ -1156,68 +1156,68 @@ dk.ogr_no='20224703008' group by de.ders_kod, de.ders_ad,de.akts, dk.vize, dk.fi
 
 select de.ders_kod, de.ders_ad,de.akts, dk.vize, dk.final, do.donem from ogr_kayit ok, ders_kayit dk, donem do, ders de
 where ok.ogr_no=dk.ogr_no and do.donem_no=dk.donem_no and de.ders_kod=dk.ders_kod and ok.ogr_no='20224703008'
-group by de.ders_kod, de.ders_ad,de.akts, dk.vize, dk.final, do.donem/* noktalı metod*/
+group by de.ders_kod, de.ders_ad,de.akts, dk.vize, dk.final, do.donem/* noktalÃ½ metod*/
 
 select de.ders_kod,de.ders_ad from ders de join ders_personel  dp on de.ders_kod=dp.ders_kod join donem do on dp.donem_no=do.donem_no
 join personel pe on dp.sicil = pe.sicil join unvan un on pe.unvan_no=un.unvan_no join kimlik k on 
-pe.tc_kimlik=k.tc_kimlik where un.unvan_ad='DOÇENT DOKTOR' and k.ad='Kerim Kürşat' and k.s_ad='ÇEVİK' and 
-do.donem='2023-2024 BAHAR'/* doç.dr kerim kürşat çevik in 2023/2024 bahar döneminde girdiği dersler  join li*/
+pe.tc_kimlik=k.tc_kimlik where un.unvan_ad='DOÃ‡ENT DOKTOR' and k.ad='Kerim KÃ¼rÃ¾at' and k.s_ad='Ã‡EVÃK' and 
+do.donem='2023-2024 BAHAR'/* doÃ§.dr kerim kÃ¼rÃ¾at Ã§evik in 2023/2024 bahar dÃ¶neminde girdiÃ°i dersler  join li*/
 
 select de.ders_kod,de.ders_ad from ders de,ders_personel  dp, donem do, personel pe, unvan un, kimlik k where 
 de.ders_kod=dp.ders_kod and dp.donem_no=do.donem_no and dp.sicil=pe.sicil and pe.unvan_no=un.unvan_no and 
-pe.tc_kimlik=k.tc_kimlik and un.unvan_ad='DOÇENT DOKTOR' and k.ad='Kerim Kürşat' and k.s_ad='ÇEVİK' and 
-do.donem='2023-2024 BAHAR'/* noktalı metod*/
+pe.tc_kimlik=k.tc_kimlik and un.unvan_ad='DOÃ‡ENT DOKTOR' and k.ad='Kerim KÃ¼rÃ¾at' and k.s_ad='Ã‡EVÃK' and 
+do.donem='2023-2024 BAHAR'/* noktalÃ½ metod*/
 
-/* 21 mayıs dersi*/
-/* kürşat çeviğin girdiği dersleredn 90 ve üzeri alan öğrencilerin öğrenci no ad soyad listeleyen sordu*/
+/* 21 mayÃ½s dersi*/
+/* kÃ¼rÃ¾at Ã§eviÃ°in girdiÃ°i dersleredn 90 ve Ã¼zeri alan Ã¶Ã°rencilerin Ã¶Ã°renci no ad soyad listeleyen sordu*/
 
 /*select ok.ogr_no from personel per, ders_personel dp, unvan un, donem do, ders_kayit dk, ogr_kayit ok where 
-per.sicil='0013' and  burası eksik kaldı*/
+per.sicil='0013' and  burasÃ½ eksik kaldÃ½*/
 
 
 
 select * from kimlik k, personel pe, unvan un, alan a, bolum bol, fakulte fak where k.tc_kimlik=pe.tc_kimlik and
 pe.unvan_no = un.unvan_no and pe.alan_no = a.alan_no and pe.bolum_no = bol.bolum_no and bol.f_no = fak.f_no and
-fak.f_ad = 'UYGULAMALI BİLİMLER FAKÜLTESİ' and bol.bolum_ad = 'YÖNETİM BİLİŞİM SİSTEMLERİ'
-/* uygulamalı bilimler fakültesi ybs bölümü hocalarını hocalarını göster*/
+fak.f_ad = 'UYGULAMALI BÃLÃMLER FAKÃœLTESÃ' and bol.bolum_ad = 'YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ'
+/* uygulamalÃ½ bilimler fakÃ¼ltesi ybs bÃ¶lÃ¼mÃ¼ hocalarÃ½nÃ½ hocalarÃ½nÃ½ gÃ¶ster*/
 
 
 /* inselect komutu*/ 
-/* eğer birden fazla tablodan veri ceker ama tek tablodan veri gösterirsek inselect kullanılabilir.*/ 
+/* eÃ°er birden fazla tablodan veri ceker ama tek tablodan veri gÃ¶sterirsek inselect kullanÃ½labilir.*/ 
 select ad, s_ad, tc_kimlik from kimlik where tc_kimlik in (select tc_kimlik from personel)
-/* personel tablosunda ki tckimlik leri kimlik tablosundan içiçe sorgu yoluyla çektik*/ 
-/* dikkat edilecek husus tek tablodan veri gösterdik*/
+/* personel tablosunda ki tckimlik leri kimlik tablosundan iÃ§iÃ§e sorgu yoluyla Ã§ektik*/ 
+/* dikkat edilecek husus tek tablodan veri gÃ¶sterdik*/
 
-select * from ogr_kayit where bolum_no in (select bolum_no from bolum where bolum_ad = 'YÖNETİM BİLİŞİM SİSTEMLERİ')
-/* ybs de okuyan öğrencilerin kayıtları*/
+select * from ogr_kayit where bolum_no in (select bolum_no from bolum where bolum_ad = 'YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ')
+/* ybs de okuyan Ã¶Ã°rencilerin kayÃ½tlarÃ½*/
 
 select * from kimlik where tc_kimlik in(select tc_kimlik from ogr_kayit where bolum_no 
-in(select bolum_no from bolum where bolum_ad = 'YÖNETİM BİLİŞİM SİSTEMLERİ'))
-/* ybs öğrencilerinin kimlik bilgilerinin gösterilmesi*/
+in(select bolum_no from bolum where bolum_ad = 'YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ'))
+/* ybs Ã¶Ã°rencilerinin kimlik bilgilerinin gÃ¶sterilmesi*/
 
 
 
 select * from kimlik where tc_kimlik in(select tc_kimlik from personel where bolum_no in(select bolum_no from bolum
-where bolum_ad = 'YÖNETİM BİLİŞİM SİSTEMLERİ' and bolum_no in(select bolum_no from fakulte 
-where f_ad = 'UYGULAMALI BİLİMLER FAKÜLTESİ')))
+where bolum_ad = 'YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ' and bolum_no in(select bolum_no from fakulte 
+where f_ad = 'UYGULAMALI BÃLÃMLER FAKÃœLTESÃ')))
 /* ubf-ybs bolumundeki personellerin listelenmesi*/
 
 
 select * from kimlik where tc_kimlik in(select tc_kimlik from personel where bolum_no in(select bolum_no from bolum
-where bolum_ad = 'YÖNETİM BİLİŞİM SİSTEMLERİ' and 
-unvan_no in(select unvan_no from unvan where unvan_ad = 'DOÇENT DOKTOR')))
-/* ybs de ki doç dr. olan personellerin listelenmesi*/
+where bolum_ad = 'YÃ–NETÃM BÃLÃÃÃM SÃSTEMLERÃ' and 
+unvan_no in(select unvan_no from unvan where unvan_ad = 'DOÃ‡ENT DOKTOR')))
+/* ybs de ki doÃ§ dr. olan personellerin listelenmesi*/
 
 
 select * from kimlik where tc_kimlik in(select tc_kimlik from ogr_kayit where ogr_no in(select ogr_no from ders_kayit
-where donem_no in( select donem_no from donem where donem='2023-2024 GÜZ') and ders_kod in(select ders_kod from ders
-where ders_ad = 'Veritabanına Giriş')))
-/* 2023-2024 güz döneminde vtys dersine gire öğrencilerin listesi*/
+where donem_no in( select donem_no from donem where donem='2023-2024 GÃœZ') and ders_kod in(select ders_kod from ders
+where ders_ad = 'VeritabanÃ½na GiriÃ¾')))
+/* 2023-2024 gÃ¼z dÃ¶neminde vtys dersine gire Ã¶Ã°rencilerin listesi*/
 
 
 select * from kimlik where tc_kimlik in(select tc_kimlik from ogr_kayit where ogr_no in(select ogr_no from ders_kayit
-where donem_no in( select donem_no from donem where donem='2023-2024 GÜZ') and ders_kod in(select ders_kod from ders
-where ders_ad = 'Veritabanına Giriş')and vize*0.4+final*0.6>=80))
-/*2023-2024 güz döneminde  veritabanına giriş dersinden 80 ortalamanın üstünde olan öğrenciler listesi)
+where donem_no in( select donem_no from donem where donem='2023-2024 GÃœZ') and ders_kod in(select ders_kod from ders
+where ders_ad = 'VeritabanÃ½na GiriÃ¾')and vize*0.4+final*0.6>=80))
+/*2023-2024 gÃ¼z dÃ¶neminde  veritabanÃ½na giriÃ¾ dersinden 80 ortalamanÃ½n Ã¼stÃ¼nde olan Ã¶Ã°renciler listesi)
 
 
