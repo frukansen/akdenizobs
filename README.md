@@ -1,4 +1,5 @@
 University Student Information System (SIS) Clone
+
 This project is a simplified clone of the student information system used at Akdeniz University. It was created for educational purposes as part of a Database Systems course. The system is developed using Microsoft SQL Server and includes a database structure to manage and simulate the following data:
 
 Student Information: Basic data on enrolled students.
@@ -8,15 +9,18 @@ Administrative Staff: Administrative staff information managing student records.
 Enrollment: A relational table mapping students to courses.
 
 Setup Instructions
+
 Clone the Repository
 git clone https://github.com/frukansen/akdenizobs.git
 
 Database Setup
+
 Import the provided SQL file into your SQL Server instance.
 Ensure you have SQL Server Management Studio (SSMS) or a compatible tool.
 Run SQL Commands
 
 Use the SQL files provided in the scripts folder to create tables, relationships, and sample data.
+
 Anonymization Notice
 
 Important: Ensure that all data conforms to data privacy standards before any public use.
@@ -25,6 +29,7 @@ All personal information is meant to be pseudonymized and should not contain rea
 Database Structure
 
 Tables
+
 Students: Contains details such as student ID, name, and program.
 Instructors: Holds instructor ID, name, department, and contact information.
 Courses: Details of course codes, names, and credits.
