@@ -1,4 +1,4 @@
-# University Student Information System (SIS) Clone
+# Akdeniz University Student Information System (SIS) Clone
 
 This project is a simplified clone of the student information system used at Akdeniz University. It was created for educational purposes as part of a Database Systems course. The system is developed using Microsoft SQL Server and includes a database structure to manage and simulate the following data:
 
