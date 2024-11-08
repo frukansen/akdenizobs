@@ -1,4 +1,4 @@
-University Student Information System (SIS) Clone
+# University Student Information System (SIS) Clone
 
 This project is a simplified clone of the student information system used at Akdeniz University. It was created for educational purposes as part of a Database Systems course. The system is developed using Microsoft SQL Server and includes a database structure to manage and simulate the following data:
 
@@ -31,7 +31,11 @@ Courses: Details of course codes, names, and credits.
 Enrollment: Links students to courses with additional grading details.
 
 Relationships
+
 Students and Courses: Many-to-many relationship through the Enrollment table.
+
 Instructors and Courses: One-to-many relationship, where each instructor can teach multiple courses.
-Contributing
+
+### Contributing
+
 This project is a foundational database model; contributions to enhance functionality, add features, or optimize queries are welcome. Please submit a pull request or open an issue to discuss changes.
