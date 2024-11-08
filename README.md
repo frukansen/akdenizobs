@@ -8,7 +8,7 @@ Courses: Courses offered each semester, including course codes and titles.
 Administrative Staff: Administrative staff information managing student records.
 Enrollment: A relational table mapping students to courses.
 
-###Database Setup
+### Database Setup
 
 Import the provided SQL file into your SQL Server instance.
 Ensure you have SQL Server Management Studio or a compatible tool.
@@ -16,12 +16,12 @@ Run SQL Commands
 
 Use the SQL files provided in the scripts folder to create tables, relationships, and sample data.
 
-###Anonymization Notice
+### Anonymization Notice
 
 Important: Ensure that all data conforms to data privacy standards before any public use.
 All personal information is meant to be pseudonymized and should not contain real identifying data.
 
-###Database Structure
+### Database Structure
 
 Tables
 
